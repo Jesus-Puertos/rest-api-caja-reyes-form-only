@@ -36,7 +36,7 @@ server.use(express.json());
 
 //Routing 
 server.use(morgan('dev'));
-server.use('/api/auth', authRoutes);
+// server.use('/api/auth', authRoutes);
 server.use('/api/socios', router);
 
 // Docs 
